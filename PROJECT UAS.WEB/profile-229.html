@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile | Katalog Lagu</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#32675b,#26504c);
+}
+
+/* HEADER */
+
+header{
+    background:#06433d;
+    color:rgb(131, 193, 173);
+    text-align:center;
+    padding:25px;
+}
+
+header h1{
+    font-size:40px;
+}
+
+/* MENU */
+
+nav{
+    background:#326e64;
+    padding:15px;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+}
+
+nav ul li{
+    margin:0 20px;
+}
+
+nav ul li a{
+    color:rgb(182, 243, 228);
+    text-decoration:none;
+    font-weight:bold;
+    font-size:18px;
+}
+
+nav ul li a:hover{
+    color:rgb(215, 152, 58);
+}
+
+/* PROFILE */
+
+.container{
+
+    width:90%;
+    max-width:1000px;
+    margin:40px auto;
+
+}
+
+.profile-card{
+
+    background:rgb(123, 183, 174);
+    border-radius:20px;
+    padding:40px;
+    box-shadow:0 10px 25px rgba(203, 205, 59, 0.3);
+    text-align:center;
+
+}
+
+.profile-card img{
+
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #2d514e;
+
+}
+
+.profile-card h2{
+
+    margin-top:20px;
+    color:#2f3f3f;
+
+}
+
+.profile-card h4{
+
+    color:rgb(26, 63, 55);
+    margin-bottom:30px;
+
+}
+
+table{
+
+    width:100%;
+    margin-top:20px;
+    border-collapse:collapse;
+
+}
+
+table td{
+
+    border:1px solid #335852;
+    padding:12px;
+    text-align:left;
+
+}
+
+table td:first-child{
+
+    font-weight:bold;
+    background:#b1d2cc;
+    width:30%;
+
+}
+
+.skill{
+
+    margin-top:30px;
+    text-align:left;
+
+}
+
+.skill h3{
+
+    color:#102020;
+    margin-bottom:15px;
+
+}
+
+.bar{
+
+    background:#ebf6f0;
+    border-radius:20px;
+    margin-bottom:15px;
+
+}
+
+.progress{
+
+    height:20px;
+    border-radius:20px;
+    background:#1b574e;
+    color:rgb(228, 241, 238);
+    text-align:center;
+    font-size:13px;
+
+}
+
+.footer{
+
+    margin-top:30px;
+    text-align:center;
+    color:#2b3d35;
+
+}
+
+footer{
+
+    background:#307c6c;
+    color:rgb(215, 220, 219);
+    text-align:center;
+    padding:15px;
+    margin-top:40px;
+
+}
+
+@media(max-width:768px){
+
+nav ul{
+
+flex-direction:column;
+
+}
+
+nav ul li{
+
+margin:10px;
+
+}
+
+.profile-card{
+
+padding:20px;
+
+}
+
+table{
+
+font-size:14px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Katalog Lagu</h1>
+
+<p>Profile Mahasiswa</p>
+
+</header>
+
+<nav>
+
+<ul>
+
+<li><a href="index-229.html">Beranda🏠</a></li>
+
+<li><a href="profile-229.html">Profile👤</a></li>
+
+<li><a href="transaksi-229.html">Transaksi💳</a></li>
+
+<li><a href="login-229.html">Login🔐</a></li>
+
+</ul>
+
+</nav>
+
+<div class="container">
+
+<div class="profile-card">
+
+<img src="poto saya.jpeg" alt="Foto Profil">
+
+<h2>Puja Sekar Wangi</h2>
+
+<h4>Mahasiswa Sistem Informasi</h4>
+
+<table>
+
+<tr>
+
+<td>Nama</td>
+
+<td>Puja Sekar Wangi</td>
+
+</tr>
+
+<tr>
+
+<td>NIM</td>
+
+<td>251011750229</td>
+
+</tr>
+
+<tr>
+
+<td>Program Studi</td>
+
+<td>Sistem Informasi</td>
+
+</tr>
+
+<tr>
+
+<td>Universitas</td>
+
+<td>Universitas Pamulang</td>
+
+</tr>
+
+<tr>
+
+<td>Mata Kuliah</td>
+
+<td>Pemrograman Web 1</td>
+
+</tr>
+
+<tr>
+
+<td>Dosen</td>
+
+<td>Stefanus Satryo Wasono, S.Kom., M.Kom.</td>
+
+</tr>
+
+<tr>
+
+<td>Tema Website</td>
+
+<td>Katalog Lagu</td>
+
+</tr>
+
+</table>
+
+<div class="skill">
+
+<h3>Keahlian :</h3>
+
+<p>HTML✨</p>
+
+<div class="bar">
+<div class="progress" style="width:90%;">90%</div>
+</div>
+
+<p>CSS✨</p>
+
+<div class="bar">
+<div class="progress" style="width:85%;">85%</div>
+</div>
+
+<p>JavaScript✨</p>
+
+<div class="bar">
+<div class="progress" style="width:80%;">80%</div>
+</div>
+
+</div>
+
+<div class="footer">
+
+<p><b>Tentang Saya</b></p>
+
+<p>
+Saya adalah mahasiswa Sistem Informasi Universitas Pamulang
+yang memiliki ketertarikan pada pengembangan website,
+desain antarmuka, dan teknologi informasi. Website ini
+dibuat sebagai proyek Ujian Akhir Semester Mata Kuliah
+Pemrograman Web 1 dengan tema <b>Katalog Lagu</b>.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+<p>©2026 Katalog Lagu | By: Puja-NIM 229</p>
+
+</footer>
+
+</body>
+</html>

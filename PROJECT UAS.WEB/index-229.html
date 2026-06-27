@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog Lagu</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background:#94afad;
+        }
+
+        header{
+            background:#195c51;
+            color:rgb(226, 236, 230);
+            padding:20px;
+            text-align:center;
+        }
+
+        nav{
+            background:#99beb6;
+            padding:15px;
+            text-align:center;
+        }
+
+        nav a{
+            color:rgb(7, 69, 49);
+            text-decoration:none;
+            margin:20px;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            color:rgb(208, 208, 12);
+        }
+
+        .container{
+            width:90%;
+            margin:auto;
+            padding:30px;
+        }
+
+        h2{
+            text-align:center;
+            margin-bottom:30px;
+            color:#042e27;
+        }
+
+        .card{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:center;
+            gap:25px;
+        }
+
+        .lagu{
+            width:250px;
+            background:white;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(147, 245, 26, 0.2);
+            overflow:hidden;
+            transition:.3s;
+        }
+
+        .lagu:hover{
+            transform:scale(1.05);
+        }
+
+        .lagu img{
+            width:100%;
+            height:250px;
+            object-fit:cover;
+        }
+
+        .isi{
+            padding:15px;
+        }
+
+        .isi h3{
+            color:#18614a;
+            margin-bottom:10px;
+        }
+
+        .isi p{
+            margin:5px 0;
+        }
+
+        button{
+            width:100%;
+            padding:10px;
+            margin-top:10px;
+            background:#09523f;
+            color:white;
+            border:none;
+            cursor:pointer;
+            border-radius:5px;
+        }
+
+        button:hover{
+            background:#558982;
+        }
+
+        footer{
+            background:#083d39;
+            color:rgb(225, 235, 227);
+            text-align:center;
+            padding:20px;
+            margin-top:40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>KATALOG LAGU</h1>
+    <p>Project UAS Pemrograman Web 1</p>
+</header>
+
+<nav>
+    <a href="index-229.html">Beranda🏠</a>
+    <a href="profile-229.html">Profile👤</a>
+    <a href="transaksi-229.html">Transaksi💳</a>
+    <a href="login-229.html">Login🔐</a>
+</nav>
+
+<div class="container">
+
+<h2>Daftar Lagu Populer</h2>
+
+<div class="card">
+
+<div class="lagu">
+<img src="https://picsum.photos/300/250?1">
+<div class="isi">
+<h3>Hati-Hati di Jalan</h3>
+<p>Penyanyi : Tulus</p>
+<p>Genre : Pop</p>
+<p>Tahun : 2022</p>
+<button>Putar Lagu</button>
+</div>
+</div>
+
+<div class="lagu">
+<img src="https://picsum.photos/300/250?2">
+<div class="isi">
+<h3>Sial</h3>
+<p>Penyanyi : Mahalini</p>
+<p>Genre : Pop</p>
+<p>Tahun : 2023</p>
+<button>Putar Lagu</button>
+</div>
+</div>
+
+<div class="lagu">
+<img src="https://picsum.photos/300/250?3">
+<div class="isi">
+<h3>Komang</h3>
+<p>Penyanyi : Raim Laode</p>
+<p>Genre : Pop</p>
+<p>Tahun : 2023</p>
+<button>Putar Lagu</button>
+</div>
+</div>
+
+<div class="lagu">
+<img src="https://picsum.photos/300/250?4">
+<div class="isi">
+<h3>Evaluasi</h3>
+<p>Penyanyi : Hindia</p>
+<p>Genre : Indie</p>
+<p>Tahun : 2019</p>
+<button>Putar Lagu</button>
+</div>
+</div>
+
+<div class="lagu">
+<img src="https://picsum.photos/300/250?5">
+<div class="isi">
+<h3>Runtuh</h3>
+<p>Penyanyi : Feby Putri feat. Fiersa Besari</p>
+<p>Genre : Pop</p>
+<p>Tahun : 2021</p>
+<button>Putar Lagu</button>
+</div>
+</div>
+
+<div class="lagu">
+<img src="https://picsum.photos/300/250?6">
+<div class="isi">
+<h3>Tak Segampang Itu</h3>
+<p>Penyanyi : Anggi Marito</p>
+<p>Genre : Pop</p>
+<p>Tahun : 2022</p>
+<button>Putar Lagu</button>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+© 2026 Katalog Lagu | By: Puja-NIM 229
+</footer>
+
+</body>
+</html>
